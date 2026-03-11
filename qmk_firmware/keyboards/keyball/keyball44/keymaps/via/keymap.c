@@ -69,13 +69,3 @@ void oledkit_render_info_user(void) {
     keyball_oled_render_layerinfo();
 }
 #endif
-
-#ifdef COMBO_ENABLE
-const uint16_t PROGMEM jk_combo[] = {KC_J, KC_K, COMBO_END};
-const uint16_t PROGMEM kl_combo[] = {KC_K, KC_L, COMBO_END};
-
-combo_t key_combos[] = {
-  COMBO(jk_combo, KC_MS_BTN1), // JとKの同時押しで左クリック
-  COMBO(kl_combo, KC_MS_BTN2)  // KとLの同時押しで右クリック
-};
-#endif

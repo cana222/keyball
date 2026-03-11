@@ -15,7 +15,6 @@ COMMAND_ENABLE = no         # Commands for debug and configuration
 NKRO_ENABLE = no            # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
-COMBO_ENABLE = yes
 
 # Keyball44 is split keyboard.
 SPLIT_KEYBOARD = yes
